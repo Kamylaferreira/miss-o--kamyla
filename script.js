@@ -6,43 +6,44 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Como você acredita que podemos combater o racismo na sociedade?",
+        enunciado: "Qual é a principal fonte de poluição atmosférica nas grandes cidades?",
         alternativas: [
             {
-                texto: "Participando de campanhas de conscientização e educação sobre igualdade racial.",
-                afirmacao: "afirmacao1"
+                texto: "Veículos Automotores.",
+                afirmacao: "Os veículos automotores emitem grandes quantidades de gases poluentes, como dióxido de nitrogênio e monóxido de carbono, contribuindo significativamente para a poluição atmosférica nas grandes cidades"
             },
             {
-                texto: "Denunciando atos de discriminação e apoiando políticas públicas inclusivas.",
-                afirmacao: "afirmacao2"
+                texto: " Indústrias.",
+                afirmacao: "As indústrias também são grandes fontes de poluição atmosférica, pois liberam poluentes como óxidos de enxofre e partículas finas no ar, impactando a qualidade do ar em áreas urbanas."
             }
            
         ]
     },
     {
-        enunciado: "Como você pode ajudar a combater a disseminação de fake news, especialmente as que perpetuam o racismo?",
+        enunciado: "Qual é a principal maneira de reduzir a pegada de carbono individual?",
         alternativas: [
             {
-                texto: "Verificando a veracidade das informações antes de compartilhar qualquer conteúdo, especialmente sobre temas sensíveis como racismo.",
-                afirmacao: "afirmacao3"
+                texto: "Uso de Transporte Público",
+                afirmacao: "Optar pelo transporte público reduz a necessidade de veículos individuais, diminuindo a emissão de gases de efeito estufa e contribuindo para a redução da pegada de carbono pessoal."
             },
             {
-                texto: "Educando amigos e familiares sobre os perigos das fake news e incentivando-os a não compartilhar conteúdos falsos que perpetuam o racismo.",
-                afirmacao: "afirmacao4"
+                texto: "Uso de Energia Renovável",
+                afirmacao: "Utilizar fontes de energia renovável, como solar ou eólica, reduz a dependência de combustíveis fósseis e diminui a emissão de gases poluentes, ajudando a reduzir a pegada de carbono."
             }
            
         ]
     },
     {
-        enunciado: "Como podemos incentivar o uso de energia solar e outras formas de energia limpa, especialmente em comunidades carentes?",
+        enunciado: "Qual é um dos principais benefícios da reciclagem?",
         alternativas: [
             {
-                texto: "Defendendo políticas públicas que subsidiem a energia solar para famílias de baixa renda.",
-                afirmacao:"afirmacao5"
+                texto: " Redução da Poluição",
+
+                afirmacao:"A reciclagem ajuda a reduzir a poluição ao diminuir a quantidade de resíduos enviados para aterros sanitários e reduzir a necessidade de novos materiais, que frequentemente são poluentes."
             },
             {
-                texto: "Promovendo a instalação de painéis solares em escolas e centros comunitários de comunidades marginalizadas.",
-                afirmacao:"afirmacao6"
+                texto: "Conservação de Recursos Naturais",
+                afirmacao:"Reciclar conserva recursos naturais ao reaproveitar materiais existentes, o que reduz a necessidade de extração e processamento de novas matérias-primas, preservando o meio ambiente."
             }
         ]
     }
